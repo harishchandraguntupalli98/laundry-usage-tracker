@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Laundry Usage Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🧺 Laundry Usage Tracker</h1>
+
+  <div class="machine" id="washer">
+    <h2>Washer</h2>
+    <p id="washerStatus">Loading...</p>
+    <input type="text" id="washerName" placeholder="Your name" />
+    <button onclick="useMachine('WASHER')">Use Washer</button>
+    <button onclick="releaseMachine('WASHER')">Release</button>
+  </div>
+
+  <div class="machine" id="dryer">
+    <h2>Dryer</h2>
+    <p id="dryerStatus">Loading...</p>
+    <input type="text" id="dryerName" placeholder="Your name" />
+    <button onclick="useMachine('DRYER')">Use Dryer</button>
+    <button onclick="releaseMachine('DRYER')">Release</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
