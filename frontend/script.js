@@ -1,7 +1,7 @@
-const API_BASE = "http://localhost:8080/api";
+const API_BASE = "https://laundry-usage-tracker.onrender.com/api";
 
 console.log("✅ script.js loaded");
-
+""
 function loadStatus() {
   fetch(`${API_BASE}/status`)
     .then(res => res.json())
