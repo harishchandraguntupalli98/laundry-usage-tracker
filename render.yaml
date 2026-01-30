@@ -1,6 +1,7 @@
 services:
   - type: web
     name: laundry-backend
+    runtime: java
     plan: free
     branch: main
 
